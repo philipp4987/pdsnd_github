@@ -16,6 +16,7 @@ Output: Statistics on the user-spezified bikeshare data
     - statistics on the most popular stations and trip
     - statistics on the total and average trip duration
     - statistics on bikeshare users
+Input and output is provided on commandline
 
 
 ### Files used
