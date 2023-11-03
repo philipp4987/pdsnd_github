@@ -48,7 +48,7 @@ $       $$$$$       $   4$$$$$$$     L       *$$$"      4
 
     while True:
         # Input
-        city = input("There is data available for Chicago, New York City and Washington.\nFor which city you like to expore Data?\nIf you want to exit the programm, type 'exit'.\nCity: ")
+        city = input("There is data available for Chicago, New York City and Washington.\nFor which city you like to expore Data?\nIf you want to exit the programm, please type 'exit'.\nCity: ")
         
         # Check if the input matches the given parameters
         city = city.lower().replace(" ","")
@@ -65,7 +65,7 @@ $       $$$$$       $   4$$$$$$$     L       *$$$"      4
 
         # if input is not the if/else block above - invalid input
         print ('\n!!! You entered a not valid input !!!')
-        print('Please only use "Chicago", "New York City" or "Washington".\nIf you want to exit the programm, type "exit".\n\n')
+        print('Please only use "Chicago", "New York City" or "Washington".\nIf you want to exit the programm, please type "exit".\n\n')
         print("-"*20, "\n")
 
 
@@ -132,7 +132,7 @@ $       $$$$$       $   4$$$$$$$     L       *$$$"      4
 
         # if input is not the if/else block above - invalid input
         print ('\n!!! You entered a not valid input !!!')
-        print('Please type the name of the month you like to filter (e.g. "January") or type "all" to apply no month filter.\nIf you want to exit the programm, type "exit".\n\n')
+        print('Please type the name of the month you like to filter (e.g. "January") or type "all" to apply no month filter.\nIf you want to exit the programm, please type "exit".\n\n')
         print("-"*20, "\n")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -176,7 +176,7 @@ $       $$$$$       $   4$$$$$$$     L       *$$$"      4
 
         # if input is not the if/else block above - invalid input
         print ('\n!!! You entered a not valid input !!!')
-        print('Please type the name of the day you like to filter (e.g. "Monday") or type "all" to apply no day filter.\nIf you want to exit the programm, type "exit".\n\n')
+        print('Please type the name of the day you like to filter (e.g. "Monday") or type "all" to apply no day filter.\nIf you want to exit the programm, please type "exit".\n\n')
         print("-"*20, "\n")
 
 
